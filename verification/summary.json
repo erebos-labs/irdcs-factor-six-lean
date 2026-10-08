@@ -1,0 +1,28 @@
+{
+  "status": "verified",
+  "theorem": "IRDCS.factorSix_arbitrary_index",
+  "entry_module": "IRDCS",
+  "project_modules": 590,
+  "remaining_required_modules": [],
+  "source_and_config_sha256_match_verified_rebuild": true,
+  "clean_build_completed_utc": "2026-10-08T12:59:40.961231+00:00",
+  "verification_method": "Project build cache initially absent. Every project module in the transitive dependency graph compiled from source. Pinned Lean and mathlib dependency caches were reused. The combined project target, explicit hypothesis example, and axiom audits passed.",
+  "lean_toolchain": "leanprover/lean4:v4.19.0",
+  "mathlib_revision": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "checked_certificate_modules": {
+    "compact_tree_parts": 441,
+    "first_period_chunks": 60,
+    "exception_certificates": 61
+  },
+  "source_trust_audit": "No sorry/admit, custom axiom declarations, native_decide, unsafe or external proof shortcuts found in project sources.",
+  "human_peer_review_claimed": false,
+  "novelty_established": false,
+  "original_existence_problem_solved": false,
+  "ai_assistance": "OpenAI Codex assisted with the formalization, generated certificate data, packaging, and independent verification.",
+  "release_copy_note": "These files match the verified proof sources and pinned configuration. This release assembly did not run a second fresh proof build."
+}

@@ -1,0 +1,10 @@
+name = "irdcs_factor_six"
+version = "0.1.0"
+defaultTargets = ["IRDCS"]
+
+[[require]]
+name = "mathlib"
+path = ".tooling/mathlib"
+
+[[lean_lib]]
+name = "IRDCS"
